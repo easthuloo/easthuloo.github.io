@@ -156,15 +156,16 @@ function showWelcome() {
           case "江西省":
             switch (ipLoacation.result.ad_info.city) {
               case "南昌市":
-                  posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";
-                  break;
+                posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";
+                break;
               case "九江市":
-                  posdesc = "九江悠悠万古情 古人行尽今人行。";
-                  break;
+                posdesc = "九江悠悠万古情 古人行尽今人行。";
+                break;
               default:
-                  posdesc = "千里来寻故地，旧貌变新颜。";
-                  break;
+                posdesc = "千里来寻故地，旧貌变新颜。";
+                break;
             }
+            break;
           case "山东省":
             posdesc = "遥望齐州九点烟，一泓海水杯中泻。";
             break;
